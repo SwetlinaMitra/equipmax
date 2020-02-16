@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Integrated module</title>
+		<link rel="stylesheet" href="draft1.css">
+	</head>
+	<body>
+	<h1>Invoice Generation from Supplier End</h1>
+		<form style="width:50%; margin:0 auto;" action="invoice1.html">
+<ul class="form-style-1">
+    <li>
+        <label>Invoice No.<span class="required">*</span></label>
+        <input type="number" name="field1" class="field-long" />
+    </li>
+	<li>
+		<label>Invoice Date<span class="required">*</span></label>
+		<input type="date" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Invoice Due Date<span class="required">*</span></label>
+		<input type="date" name="field1" class="field-long" />
+	</li>
+	<li>
+        <label>Credit Days<span class="required">*</span></label>
+        <input type="number" name="field5" id="field5" class="field-long" />
+    </li>
+	<li>
+        <label>Invoice to Address<span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+	<li>
+        <label>Description<span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+	<li>
+		<label>Attachments<span class="required">*</span></label>
+		<input type="file" name="attachments" accept="file_extension">
+	</li>
+	<br>
+	<hr>
+	<h3>Item Details</h3>
+	<li>
+		<label>Item no.<span class="required">*</span></label>
+        <input type="number" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Item name<span class="required">*</span></label>
+        <input type="text" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Market Price<span class="required">*</span></label>
+        <input type="number" step ="any" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Unit Price<span class="required">*</span></label>
+        <input type="number" step= "any" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Ordered Quantity<span class="required">*</span></label>
+        <input type="number" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Invoiced Quantity<span class="required">*</span></label>
+        <input type="number" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Taxes<span class="required">*</span></label>
+        <input type="number" name="field1" class="field-long" />
+	</li>
+	<li>
+		<label>Total Price<span class="required">*</span></label>
+        <input type="number" step="any" name="field1" class="field-long" />
+	</li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+	</body>
+</html>
